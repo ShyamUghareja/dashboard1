@@ -27,6 +27,7 @@ export default function RootLayout({ children }) {
         href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
         rel="stylesheet"
       />
+      <link href="/output.css" rel="stylesheet"></link>
       <body className={inter.className} style={{ background: "#F6F6F6" }}>
         {children}
       </body>

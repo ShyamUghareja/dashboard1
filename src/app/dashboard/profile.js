@@ -7,7 +7,7 @@ function profile() {
   return (
     <>
       <div className="">
-        <div className="w-100 white_background d-inline-grid py-3 px-3" style={{display: "flex"}}>
+        <div className="w-100 rounded white_background flex justify-between items-center py-3 px-3" >
           <div>
             <div>
               <a className="h_5 text-decoration-none nav_menu_color">Welcome</a>
@@ -23,9 +23,17 @@ function profile() {
             </div>
           </div>
 
-          <div>
+          <div className="flex items-center"> 
+            <div className="border-r-2 me-3 border-#e4e4e4-500">
+            <button type="button" class="text-white selected_color font-medium rounded-lg text-sm px-4 py-2.5 me-3 mb-2"><i className="ri-arrow-down-s-line h_4 me-2"></i> Antalya Bilim University</button>
+            </div>
+            <div className="flex gap-3">
+            <i class="ri-moon-line h_4"></i>
+            <i class="ri-global-line h_4"></i>
+            <i class="ri-user-3-line h_4"></i>
+            </div>
             <div>
-            <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Default</button>
+
             </div>
           </div>
         </div>
