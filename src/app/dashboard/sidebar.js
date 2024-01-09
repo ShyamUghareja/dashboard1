@@ -15,7 +15,7 @@ function sidebar() {
           <div>
             <div
               className="flex mx-2 py-2
-            px-4 gap-3 mt-3 selected_color rounded items-center"
+            px-4 gap-3 mt-3 selected_color rounded items-center cursor-pointer"
             >
               <i class="ri-home-4-fill text_white "></i>
               <a className="contents mb-0 text_white h_6 no-underline">

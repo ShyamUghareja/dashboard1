@@ -1,5 +1,6 @@
 import Dashboard from "./dashboard/sidebar";
 import Profile from "./dashboard/profile";
+import Withdraw from "./dashboard/withdraw";
 
 export default function Home() {
   return (
@@ -12,9 +13,9 @@ export default function Home() {
         <div className="col-span-12 grid-rows-4">
           <Profile />
         </div>
-        {/* <div class="col-span-6">
-        <Profile />
-        </div> */}
+        <div class="col-span-6">
+        <Withdraw />
+        </div>
         </div>
       </main>
     </>
