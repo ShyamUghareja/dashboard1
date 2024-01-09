@@ -1,3 +1,4 @@
+
 .main_logo {
     display: inline-grid;
     justify-content: center;
@@ -55,4 +56,13 @@
 
 .bg_green{
     background-color: #DBF4DE;
+}
+
+.border_width{
+    width: 120px;
+}
+.left_border{
+    height: 92px;
+    border-radius: 10px;
+    border-left: 6px solid;
 }

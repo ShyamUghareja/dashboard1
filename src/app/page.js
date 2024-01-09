@@ -5,16 +5,21 @@ import Withdraw from "./dashboard/withdraw";
 export default function Home() {
   return (
     <>
-      <main className="grid grid-cols-12 gap-3 w-100">
-        <div className="col-span-2">
+      <main className="row w-100">
+        <div className="col-2">
           <Dashboard />
         </div>
-        <div className="grid grid-cols-12 col-span-10">
-        <div className="col-span-12 grid-rows-4">
+        <div className="col-10 p-0">
+        <div className="col-12 mb-3 p-0 me-0">
           <Profile />
         </div>
-        <div class="col-span-6">
+        <div className="col-12 flex gap-3">
+        <div class="col-6">
         <Withdraw />
+        </div>
+        <div class="col-5">
+        <Withdraw />
+        </div>
         </div>
         </div>
       </main>
